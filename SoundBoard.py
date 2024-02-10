@@ -25,33 +25,33 @@ def event_handler():
         if event.type == pygame.MOUSEBUTTONDOWN:
             # Button 1:
             if pygame.mouse.get_pos()[0] > 200 and pygame.mouse.get_pos()[0] < 365 and pygame.mouse.get_pos()[1] > 50 and pygame.mouse.get_pos()[1] < 170:
-                play("C:\\Users\\Админ\\Videos\\sample-3s.wav")
+                play("content\\sounds\\sample-3s.wav")
             # Button 2:
             if pygame.mouse.get_pos()[0] > 400 and pygame.mouse.get_pos()[0] < 565 and pygame.mouse.get_pos()[1] > 50 and pygame.mouse.get_pos()[1] < 170:
-                play("C:\\Users\\Админ\\Videos\\sample-3s.wav")
+                play("content\\sounds\\sample-3s.wav")
             # Button 3:
             if pygame.mouse.get_pos()[0] > 200 and pygame.mouse.get_pos()[0] < 365 and pygame.mouse.get_pos()[1] > 200 and pygame.mouse.get_pos()[1] < 325:
-                play("C:\\Users\\Админ\\Videos\\sample-3s.wav")
+                play("content\\sounds\\sample-3s.wav")
             # Button 4:
             if pygame.mouse.get_pos()[0] > 400 and pygame.mouse.get_pos()[0] < 565 and pygame.mouse.get_pos()[1] > 200 and pygame.mouse.get_pos()[1] < 325:
-                play("C:\\Users\\Админ\\Videos\\sample-3s.wav")
+                play("content\\sounds\\sample-3s.wav")
             # Button 5:
             if pygame.mouse.get_pos()[0] > 200 and pygame.mouse.get_pos()[0] < 365 and pygame.mouse.get_pos()[1] > 350 and pygame.mouse.get_pos()[1] < 470:
-                play("C:\\Users\\Админ\\Videos\\sample-3s.wav")
+                play("content\\sounds\\sample-3s.wav")
             # Button 6:
             if pygame.mouse.get_pos()[0] > 400 and pygame.mouse.get_pos()[0] < 565 and pygame.mouse.get_pos()[1] > 350 and pygame.mouse.get_pos()[1] < 470:
-                play("C:\\Users\\Админ\\Videos\\sample-3s.wav")
+                play("content\\sounds\\sample-3s.wav")
     clock.tick(60)
 
 #Визуал:
 app_display.fill('white')
-img = pygame.image.load('C:\\Users\\Админ\\Pictures\\Python\\button_sb.png')
-button1 = pygame.image.load('C:\\Users\\Админ\\Pictures\\Python\\1_sb.png')
-button2 = pygame.image.load('C:\\Users\\Админ\\Pictures\\Python\\2_sb.png')
-button3 = pygame.image.load('C:\\Users\\Админ\\Pictures\\Python\\3_sb.png')
-button4 = pygame.image.load('C:\\Users\\Админ\\Pictures\\Python\\4_sb.png')
-button5 = pygame.image.load('C:\\Users\\Админ\\Pictures\\Python\\5_sb.png')
-button6 = pygame.image.load('C:\\Users\\Админ\\Pictures\\Python\\6_sb.png')
+img = pygame.image.load('content\\visuals\\button_sb.png')
+button1 = pygame.image.load('content\\visuals\\1_sb.png')
+button2 = pygame.image.load('content\\visuals\\2_sb.png')
+button3 = pygame.image.load('content\\visuals\\3_sb.png')
+button4 = pygame.image.load('content\\visuals\\4_sb.png')
+button5 = pygame.image.load('content\\visuals\\5_sb.png')
+button6 = pygame.image.load('content\\visuals\\6_sb.png')
 
 app_display.blit(img, (200, 50))
 app_display.blit(img, (200, 200))
